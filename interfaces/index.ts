@@ -1,5 +1,6 @@
 export interface PropertyProps {
   name: string;
+  description: string;
   address: {
     state: string;
     city: string;
@@ -15,4 +16,11 @@ export interface PropertyProps {
   };
   image: string;
   discount: string;
+}
+
+export interface Review {
+  avatar: string;
+  name: string;
+  rating: number;
+  comment: string;
 }

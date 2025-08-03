@@ -1,9 +1,8 @@
 "use client";
 
 import React from "react";
-import { Input } from "@/components/ui/input"; // Replace if not using UI library
-import { Button } from "@/components/ui/button";
-
+import { Input } from "../ui/input";
+import { Button } from '@/components/ui/button';
 const categories = ["Rooms", "Mansion", "Countryside", "Beachfront", "City View"];
 
 const Header: React.FC = () => {
